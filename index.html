@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabish's - Developer Protfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- /* ********* ✅✅ Navigation bar ✅✅ ********* */ -->
+
+    <header>
+        <nav>
+            <div class="left">
+                <h1>Tabish's Portfolio</h1>
+            </div>
+            <div class="right">
+                <ul>
+                 <li><a href="">About</a> </li>
+                 <li><a href="">Services</a> </li>
+                 <li><a href="">Home</a> </li>
+                 <li><a href="">Projects</a> </li>
+                 <li><a href="">Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    
+<!-- /* ********* ✅✅Main ✅✅ ********* */ --> 
+
+<main class="firstsection">
+    <div class="leftsection">
+        <h2>
+            My Name Is <span>Tabish.B.I.</span> <br>
+            And I Am A <br> <span id="element"></span>
+            <br>
+            <button>Download Resume</button>
+            <button>Visit Giuhub</button>
+        </h2>
+    </div>
+    <div class="rightsection">
+        <!-- <img src="developer png.png" alt="Developer img"> -->
+        <video autoplay muted loop src="programmer.mp4"></video>
+    </div>
+</main>
+
+
+
+<hr style="border: 1.5px solid rgba(255, 0, 0, 0.533); margin: 50px 50px;">
+
+<!-- /* ********* ✅✅ 1st Section ✅✅ ********* */ --> 
+
+
+<div id="firstsection">
+    <video autoplay loop muted src="1st page.mp4"></video>
+    <h1>Work Experience</h1>
+    <h4>What I have Done So Far!</h4>
+
+
+    <div class="box">
+         <div class="vertical">
+            <img src="html logo.png" alt="">
+            <div class="verticalhead"><h1>Html Developer <br>(2022-2023)</h1></div>
+           <div class="verticalpara"> <p>Experienced HTML developer adept at crafting clean and responsive web interfaces with a keen eye for design and a passion for creating seamless user experiences.</p></div>
+         </div>
+         <div class="vertical">
+            <img src="css logo.png" alt="">
+            <div class="verticalhead"><h1>CSS Designer <br> (2022-2023)</h1></div>
+           <div class="verticalpara"> <p>CSS magician: Translating artistic visions into visually stunning and user-friendly websites, mastering responsive layouts and captivating animations.</p></div>
+         </div>
+         <div class="vertical">   <img src="js.png" alt="">
+            <div class="verticalhead"><h1>Js Developer <br> (2022-2023)</h1></div>
+           <div class="verticalpara"> <p>JavaScript maestro: Crafting interactive and dynamic web experiences, bringing creative designs to life with cutting-edge front-end development techniques.</p></div></div>
+         <div class="vertical">
+            <img src="nodejs.png" alt="">
+            <div class="verticalhead"><h1>NodeJs Developer <br> (2022-2023)</h1></div>
+           <div class="verticalpara"> <p>Node.js pro: Harnessing JavaScript to build scalable, high-performance back-end solutions for modern web applications.</p></div>
+         </div>
+         <!-- <div class="vertical"></div>
+         <div class="vertical"></div> -->
+    </div>
+</div>
+
+<hr style="border: 1.5px solid rgba(255, 0, 0, 0.533); margin: 50px 50px;">
+
+<!-- /* ********* ✅✅ Footer Section ✅✅ ********* */ --> 
+
+
+<footer>
+    <div class="video-container">
+        <video autoplay muted loop id="video-bg">
+          <source src="tunnel.mp4" type="video/mp4">
+          <!-- Add other video sources if needed -->
+        </video>
+    <div id="footersection">
+        <h1>Tabish's Portfolio</h1>
+        <div id="viwer">
+            <form action="">
+                <label for="name">Name:</label> 
+                <input type="text" id="name" placeholder="write your name"> 
+                <br>
+                <label for="email">Email:</label> 
+                <input type="email" name="emial" id="email" placeholder="write your email">
+                <br>
+                <label for="number">Contact no:</label> 
+                <input type="number" name="number" id="number" placeholder="write your email">
+                <br>
+                <label for="question">Ask Anything:</label>
+                <textarea name="question" id="question" cols="30" rows="7"></textarea>
+                <br>
+                <input type="submit" value="Submit Now" > <br>
+                <input type="reset" value="Reset From">
+
+            </form>
+        </div>
+    </div>
+</footer>
+<hr style="border: 1.5px solid rgba(255, 0, 0, 0.533); margin: 50px 50px;">
+
+<div id="copyright">
+    Tabish's Portfolio <br> All rights reserved <br>Copyright(2022-2023) &copy
+</div>
+
+
+
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['Web Developer,','Gamer,' ,'Chess Player,','&amp; a Programmer.', ],
+    typeSpeed: 50,
+    loop:true
+  });
+</script>
+</body>
+
+</html>
